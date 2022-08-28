@@ -42,7 +42,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
     } else {
       res.status(404).send("The Image url is incorrect, Please provide a valid url");
     }
-  })
+  });
 
   //! END @TODO1
   
